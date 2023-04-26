@@ -1,0 +1,15 @@
+yarn run v1.22.19
+$ /Users/Moserper/Desktop/dev/learn-turbo-repo/node_modules/.bin/turbo run build --filter=api --cache-dir=.turbo
+• Packages in scope: api
+• Running build in 1 packages
+• Remote caching disabled
+logger:build: cache hit, replaying output 156e185b1c41ae3b
+logger:build: $ tsc
+api:build: cache hit, replaying output a5b460ee813feaee
+api:build: $ tsc
+
+ Tasks:    2 successful, 2 total
+Cached:    2 cached, 2 total
+  Time:    249ms >>> FULL TURBO
+
+Done in 0.40s.
